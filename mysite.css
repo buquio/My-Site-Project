@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    font-family:'Merriweather',serif;
+    color: #40514E;
+    text-align: center;
+
+}
+
+h1{
+    font-family:'Sacramento',cursive;
+    font-size: 5.25rem;
+    color:#66BFBF;
+    margin: 50px auto 0 auto;
+}
+
+h2{
+    font-family:'Montserrat',sans-serif;
+    color:#66BFBF;
+    font-weight: normal;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-family:'Montserrat',sans-serif;
+    color:#11999E;
+}
+
+p{
+    line-height: 2;
+}
+
+/* ------------top container------------------ */
+.top-container{
+    background-color:#E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px ;
+    top: 40px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+
+}
+
+.pro{
+    text-decoration: underline;
+
+}
+
+
+/* --------------middle container---------------- */
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.profile{
+
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+
+}
+
+hr{
+    border: dotted 10px #66BFBF;
+    border-bottom: none;
+    width: 20%;
+    margin: 100px auto;
+}
+
+.skills{
+
+}
+
+.skill-row{
+width: 50%;
+margin: 100px auto 100px auto ;
+text-align: left;
+
+}
+
+.software-img{
+   width: 25%;
+   float: left;
+   margin-right: 30px;
+}
+
+.blog-img{
+   width: 25%;
+   float: right;
+   margin-left: 30px;
+}
+
+/* ---------contact---------- */
+.contact-me{
+  margin: 100px auto 100px auto;
+
+
+}
+
+.contact-message{
+width: 40%;
+margin: 40px auto 60px auto;
+}
+
+.btn{
+border: none;
+color:#FFFFFF ;
+background:#11CDD4 ;
+background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+border-radius: 8px;
+font-family:'Montserrat', sans-serif ;
+/* font-size: 20px; */
+font-size: 1.4rem;
+text-decoration: none;
+padding: 10px 20px 10px 20px;
+
+
+}
+
+.btn:hover{
+    color: #30E3CB;
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+
+}
+
+a{
+    color: #11999E;
+    font-family:'Montserrat', sans-serif ;
+    margin: 10px 20px;
+    text-decoration: none;
+
+}
+
+a:hover {
+     color: #EAF6F6;
+
+}
+
+
+.copyright{
+    font-size:0.75rem ;
+    color:#EAF6F6 ;
+    padding: 20px 0;
+
+}
+
+
+
