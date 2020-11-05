@@ -43,6 +43,11 @@ p{
     top: 40px;
 }
 
+.pro{
+    text-decoration: underline;
+
+}
+
 .bottom-cloud{
     position: absolute;
     left: 250px;
@@ -50,10 +55,6 @@ p{
 
 }
 
-.pro{
-    text-decoration: underline;
-
-}
 
 
 /* --------------middle container---------------- */
@@ -119,10 +120,9 @@ border: none;
 color:#FFFFFF ;
 background:#11CDD4 ;
 background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+/* background-image: -ms-linear-gradient(top, #11cdd4, #11999e); */
 border-radius: 8px;
 font-family:'Montserrat', sans-serif ;
-/* font-size: 20px; */
 font-size: 1.4rem;
 text-decoration: none;
 padding: 10px 20px 10px 20px;
@@ -136,9 +136,11 @@ padding: 10px 20px 10px 20px;
 
 }
 
+/* ------------bottom container-------- */
+
 .bottom-container{
     background-color: #66BFBF;
-    padding: 50px 0 20px;
+    padding: 50px auto 30px auto;
 
 }
 
